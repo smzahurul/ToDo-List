@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Javascript To-Do List</h1>
+    <div class="main-class">
+        <form action="">
+            <input type="number" id="slnumber" placeholder="Enter Sl No" /><br /><br />
+            <input type="text" id="name" placeholder="Enter Student Name" /><br /><br />
+            <input type="text" id="roll" placeholder="Enter Student Roll No" /><br /><br />
+            <input type="text" id="dept" placeholder="Enter Student Dept" /><br /><br />
+            <input type="text" id="cgpa" placeholder="Enter Student Cgpa" /><br /><br />
+            <button id="btn">Student Add</button>
+        </form>
+    </div>
+    <div class="main-class">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl No.</th>
+                    <th>Name</th>
+                    <th>ID No</th>
+                    <th>Department</th>
+                    <th>CGPA</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
